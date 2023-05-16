@@ -30,7 +30,6 @@ public class As implements CommandExecutor {
         } else {
             t.chat(String.join(" ", Arrays.copyOfRange(args, 1, args.length)));
         }
-
         return true;
     }
 }
