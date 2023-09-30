@@ -7,5 +7,7 @@ public final class DoAs extends JavaPlugin {
     @Override
     public void onEnable() {
         getCommand("as").setExecutor(new As());
+
+        Metrics metrics = new Metrics(this, 19009);
     }
 }
