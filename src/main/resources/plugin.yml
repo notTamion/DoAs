@@ -1,0 +1,8 @@
+name: DoAs
+version: '${project.version}'
+main: de.tamion.DoAs
+api-version: 1.19
+authors: [Tamion]
+
+commands:
+  as:
